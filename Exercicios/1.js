@@ -1,15 +1,15 @@
-function cumprimentar(nome){
-    console.log(`Olá ${nome}!`)
-}
-cumprimentar('Jean')
-cumprimentar('Maria')
+//Crie uma função que dado dois valores (passados como parâmetros) mostre no console a soma, subtração,
+// multiplicação e divisão desses valores.
 
-idadeParaDias(25)
-function idadeParaDias(idade){
-    let dias = idade *365;
-    console.log(`Sua idade em dias é ${dias}`)
+function calculo(valor1, valor2){
+    let soma = valor1 + valor2
+    let subtracao = valor1 - valor2
+    let multiplicacao= valor1 * valor2
+    let divisao = valor1 / valor2
+    console.log('Resultado: '+ soma + ', ' + subtracao+ ', ' + multiplicacao + ', '+ divisao)
 }
 
+calculo(10, 2)
 
 
 
